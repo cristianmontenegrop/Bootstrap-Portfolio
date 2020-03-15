@@ -100,9 +100,6 @@ label {
 
 @media screen and (max-width: 575px) {
 
-    html {
-        
-    }
    .navbar { 
     width: auto;
    }
@@ -119,17 +116,35 @@ label {
         columns: 20%;
     }
 
-.navbar-brand {
-background-color: #4aaaa5;
-padding: 0.5rem;
- }
- 
- .card-index {
-     width: auto;
- }
-.card-text {
-    float: left;
-}
+    .navbar-brand {
+    background-color: #4aaaa5;
+    padding: 0.5rem;
+    }
+    
+    .card-index {
+        width: auto;
+    }
+    .card-text {
+        float: left;
+    }
+
+    /* Portfolio page */
+
+    .card-portfolio {
+        width: auto;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        padding-left: 20px;
+    }
+
+    .card-title {
+            color: #4aaaa5;
+            font-size: 1.6rem;
+            font-weight: bolder;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+    }
 
 }
 @media screen and (max-width: 767px) {
