@@ -218,6 +218,25 @@ label {
             font-weight: bolder;
             font-family: 'Georgia', 'Times New Roman', Times, serif;
     }
+
+    .card-img {
+        max-width: auto;
+        max-height: auto;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        float: left;
+        /* width: auto;
+        height: auto; */
+    }
+
+    .column-1 {
+        column-count: 2
+    }
+    .column-2 {
+        column-count: 2;
+    }
+    }
+
 /* Contact Page */
 
     .form-contact {
