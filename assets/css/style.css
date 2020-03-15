@@ -18,25 +18,42 @@ On an xs screen, content should take up the entire screen. On sm and larger scre
  sites on your mobile device vs. your computer to see examples of these differences. */
 body {
     font-family: 'Arial', Helvetica, sans-serif;
-    color: #ffffff;
+    font-size: medium;
+    /* color: #ffffff; */
+    background-image: url("../images/beanstalk.png");
+    background-repeat: repeat;   
 }
 
-#navBrand{
+#navBrand {
     color: #ffffff;
     font-size: 35px;
     font-weight: bolder;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    float: left
+ 
 }
 .navbar-brand {
 background-color: #4aaaa5;
 padding: 17px;
  }
- .navbar-right {
-  float: right   
- }
 
+.card {
+    margin-left: 2%;
+    /* margin-right: 30px; */
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card-img {
+    max-width: 350px;
+    max-height: 350px;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    float: left;
+}
 
-/* .navbar-brand { 
-float: right;
-} */
+.card-title {
+    color: #4aaaa5;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
