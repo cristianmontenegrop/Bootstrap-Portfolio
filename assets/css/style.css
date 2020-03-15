@@ -68,3 +68,26 @@ padding: 17px;
     margin-bottom: 3%;
     padding-left: 20px;
 }
+
+.form-contact {
+    width: 30rem;
+    height: 40rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-left: 20px;
+}
+
+.button-form {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #4aaaa5;
+    float: left;
+    width: 5rem;
+    height: 3rem;
+}
+
+.portfolio-title {
+    margin: 1rem;
+}
