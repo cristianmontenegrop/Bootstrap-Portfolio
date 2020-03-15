@@ -26,7 +26,7 @@ body {
 
 #navBrand {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: bolder;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
  
@@ -70,7 +70,7 @@ padding: 17px;
 }
 
 .form-contact {
-    width: 30rem;
+    width: 40rem;
     height: 40rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -84,10 +84,66 @@ padding: 17px;
     color: #ffffff;
     border-color: #4aaaa5;
     float: left;
-    width: 5rem;
-    height: 3rem;
+    width: 8rem;
+    height: 4rem;
+    margin-top: 2rem;
 }
 
 .portfolio-title {
     margin: 1rem;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+
+    html {
+        
+    }
+   .navbar { 
+    width: auto;
+   }
+   #navBrand {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+   width: auto;
+    float:left;
+    }
+    .navbar-toggler {
+        float: left;
+        columns: 20%;
+    }
+
+.navbar-brand {
+background-color: #4aaaa5;
+padding: 0.5rem;
+ }
+ 
+ .card-index {
+     width: auto;
+ }
+.card-text {
+    float: left;
+}
+
+}
+@media screen and (max-width: 767px) {
+   
+  
+}
+@media screen and (max-width: 991px) {
+ 
+ 
+   
+}
+@media screen and (min-width:992px) {
+       
+     
+ 
+
 }
