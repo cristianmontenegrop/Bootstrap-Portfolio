@@ -146,6 +146,26 @@ label {
             font-family: 'Georgia', 'Times New Roman', Times, serif;
     }
 
+    .form-contact {
+        width: auto;
+        height: 40rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        padding-left: 20px;
+    }
+    
+    .button-form {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-color: #4aaaa5;
+        float: left;
+        width: 8rem, auto;
+        height: 4rem, auto;
+        margin-top: 2rem;
+    }
+
 }
 @media screen and (max-width: 767px) {
    
