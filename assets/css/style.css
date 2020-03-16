@@ -19,21 +19,31 @@ On an xs screen, content should take up the entire screen. On sm and larger scre
 body {
     font-family: 'Arial', Helvetica, sans-serif;
     font-size: medium;
-    /* color: #ffffff; */
     background-image: url("../images/beanstalk.png");
     background-repeat: repeat;   
 }
-
+.grid-navbar {
+    /* display: grid; */
+  /* grid-auto-rows: auto; */
+    
+}
 #navBrand {
     color: #ffffff;
     font-size: 3rem;
     font-weight: bolder;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
- 
+    /* column-count: 1;
+    column-width: 60%; */
+    
 }
+/* .navbar-toggler {
+  column-count: 1;
+  column-width: 30%;
+} */
 .navbar-brand {
 background-color: #4aaaa5;
-padding: 17px;
+padding: 1%;
+
  }
 
 .card-index {
@@ -60,6 +70,11 @@ padding: 17px;
     font-weight: bolder;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
+
+
+/* Portfolio  */
+
+
 .card-portfolio {
     width: 52rem;
     margin-left: 3rem;
@@ -98,19 +113,28 @@ label {
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 320px) and (max-width: 575px) {
 
+
+
+
+
+
+
+
+    /* ----------------------------------------------------------- */
 /* Index page */
+
 
    .navbar { 
     width: auto;
    }
    #navBrand {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1rem,;
     font-weight: bolder;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-   width: auto;
+    width: auto;
     float:left;
     }
     .navbar-toggler {
@@ -130,7 +154,9 @@ label {
         float: left;
     }
 
-    /* Portfolio page */
+
+/* Portfolio page */
+
 
     .card-portfolio {
         width: auto;
@@ -147,7 +173,27 @@ label {
             font-weight: bolder;
             font-family: 'Georgia', 'Times New Roman', Times, serif;
     }
+
+    .card-img {
+        max-width: auto;
+        max-height: auto;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        float: left;
+        /* width: auto;
+        height: auto; */
+    }
+  
+    /* .column-1 {
+        column:0;
+    }
+    .column-2 {
+        column: 0;
+    } */
+
+
 /* Contact Page */
+
 
     .form-contact {
         width: auto;
@@ -170,8 +216,20 @@ label {
     }
 
 }
-@media screen and (max-width: 767px) {
-   /* Index page */
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------/ */
+
+    /* Index page */
 
    .navbar { 
     width: auto;
@@ -201,7 +259,9 @@ label {
         float: left;
     }
 
-    /* Portfolio page */
+
+/* Portfolio page */
+
 
     .card-portfolio {
         width: auto;
@@ -235,9 +295,11 @@ label {
     .column-2 {
         column-count: 2;
     }
-    }
+    
+    
 
 /* Contact Page */
+
 
     .form-contact {
         width: auto;
@@ -260,10 +322,13 @@ label {
     }
   
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
  
  
    
+
+
+    
 }
 @media screen and (min-width:992px) {
        
